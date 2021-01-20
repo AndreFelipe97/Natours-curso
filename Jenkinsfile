@@ -7,4 +7,16 @@ pipeline {
             }
         }
     }
+    post {
+        failure {
+            slackSend channel: '#ops-room',
+                    color: 'red',
+                    message: "Error."
+        }
+        success {
+            slackSend channel: '#ops-room',
+                    color: 'green',
+                    message: "Successfully."
+        }
+    }
 }

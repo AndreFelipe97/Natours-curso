@@ -19,11 +19,11 @@ export const Header = styled.header`
 
 export const LogoBox = styled.div`
     position: absolute;
-    top: 40px;
-    left: 40px;
+    top: 4rem;
+    left: 4rem;
 
     .logo {
-        height: 35px;
+        height: 3.5rem;
         animation: ${moveInRight} 1s ease-out;
     }
 `;
@@ -39,21 +39,21 @@ export const TextBox = styled.div`
     .btn:visited {
         text-transform: uppercase;
         text-decoration: none;
-        padding: 15px 40px;
+        padding: 1.5rem 4rem;
         display: inline-block;
-        border-radius: 100px;
+        border-radius: 10rem;
         transition: all .2s;
         position: relative;
     }
 
     .btn:hover {
-        transform: translateY(-3px);
-        box-shadow: 0 10px 20px rgba(0, 0, 0, .2);
+        transform: translateY(-.3rem);
+        box-shadow: 0 1rem 2rem rgba(0, 0, 0, .2);
     }
 
     .btn:active {
-        transform: translateY(-1px);
-        box-shadow: 0 10px 20px rgba(0, 0, 0, .2);
+        transform: translateY(-.1rem);
+        box-shadow: 0 1rem 2rem rgba(0, 0, 0, .2);
     }
 
     .btn-white {
@@ -66,7 +66,7 @@ export const TextBox = styled.div`
         display: inline-block;
         height: 100%;
         width: 100%;
-        border-radius: 100px;
+        border-radius: 10rem;
         position: absolute;
         top: 0;
         left: 0;
@@ -93,21 +93,21 @@ export const HeadingPrimary = styled.h1`
     color: #fff;
     text-transform: uppercase;
     backface-visibility: hidden;
-    margin-bottom: 60px;
+    margin-bottom: 6rem;
 
     .heading-primary-main {
         display: block;
-        font-size: 60px;
+        font-size: 6rem;
         font-weight: 400;
-        letter-spacing: 35px;
+        letter-spacing: 3.5rem;
         animation: ${moveInLeft} 1s ease-out;
     }
 
     .heading-primary-sub {
         display: block;
-        font-size: 20px;
+        font-size: 2rem;
         font-weight: 700;
-        letter-spacing: 17.4px;
+        letter-spacing: 1.74rem;
         animation: ${moveInRight} 1s ease-out;
     }
 `;

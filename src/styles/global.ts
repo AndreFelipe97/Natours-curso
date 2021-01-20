@@ -1,10 +1,16 @@
 import { createGlobalStyle } from 'styled-components';
 
 const GlobalStyle = createGlobalStyle`
-  * {
+  *,
+  *::after,
+  *::before {
       margin: 0;
       padding: 0;
-      box-sizing: border-box;
+      box-sizing: inherit;
+  }
+
+  html {
+    font-size: 62.5%;
   }
 
   body {
@@ -13,7 +19,8 @@ const GlobalStyle = createGlobalStyle`
       font-size: 16px;
       line-height: 1.7;
       color: #777;
-      padding: 30px;
+      padding: 3rem;
+      box-sizing: border-box;
   }
 `
 

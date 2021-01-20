@@ -3,11 +3,11 @@ import { keyframes } from "styled-components"
 export const moveInRight = keyframes`
     0% {
         opacity: 0;
-        transform: translateX(100px);
+        transform: translateX(10rem);
     }
 
     80% {
-        transform: translateX(-10px);
+        transform: translateX(-1rem);
     }
 
     100% {
@@ -19,11 +19,11 @@ export const moveInRight = keyframes`
 export const moveInLeft = keyframes`
     0% {
         opacity: 0;
-        transform: translateX(-100px);
+        transform: translateX(-10rem);
     }
 
     80% {
-        transform: translateX(10px);
+        transform: translateX(1rem);
     }
 
     100% {
@@ -35,7 +35,7 @@ export const moveInLeft = keyframes`
 export const moveInBottom = keyframes`
     0% {
         opacity: 0;
-        transform: translateY(30px);
+        transform: translateY(3rem);
     }
 
     100% {
